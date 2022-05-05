@@ -8,7 +8,7 @@ steps:
     title: Cloning main repository...
     stage: checkout
     type: git-clone
-    repo: 'yzjcloud/codefresh_pipeline_gcp_gke'
+    repo: 'yzjcloud/codefresh_pipeline_gcp_vm'
     revision: master
     git: github      
   SetupAuth:
